@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Angular 2 App</title>
+  <base href="<%= APP_BASE %>">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<style>
+    .ng-touched.ng-invalid {
+      border-color: red;
+    }
+</style>
+<body>
+
+  <app>Loading...</app>
+
+  <!-- inject:js -->
+  <!-- endinject -->
+
+  <script src="<%= APP_BASE %>init.js?v=<%= VERSION %>"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.js"></script>
+</body>
+</html>
